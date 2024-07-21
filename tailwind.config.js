@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./src/**/*.{html,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'JO-sans': ['Source Sans 3', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
